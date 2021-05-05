@@ -1,34 +1,18 @@
 {
-  "login": "endroni",
-  "id": 11628097,
-  "node_id": "MDQ6VXNlcjExNjI4MDk3",
-  "avatar_url": "https://avatars.githubusercontent.com/u/11628097?v=4",
-  "gravatar_id": "",
-  "url": "https://api.github.com/users/rrgomide",
-  "html_url": "https://github.com/rrgomide",
-  "followers_url": "https://api.github.com/users/rrgomide/followers",
-  "following_url": "https://api.github.com/users/rrgomide/following{/other_user}",
-  "gists_url": "https://api.github.com/users/rrgomide/gists{/gist_id}",
-  "starred_url": "https://api.github.com/users/rrgomide/starred{/owner}{/repo}",
-  "subscriptions_url": "https://api.github.com/users/rrgomide/subscriptions",
-  "organizations_url": "https://api.github.com/users/rrgomide/orgs",
-  "repos_url": "https://api.github.com/users/rrgomide/repos",
-  "events_url": "https://api.github.com/users/rrgomide/events{/privacy}",
-  "received_events_url": "https://api.github.com/users/rrgomide/received_events",
-  "type": "User",
-  "site_admin": false,
-  "name": "Rubem Santos",
-  "company": "ALMG | IGTI",
-  "blog": "",
-  "location": "Belo Horizonte/MG - Brazil",
-  "email": null,
-  "hireable": null,
-  "bio": "Systems Analyst at ALMG and teacher at IGTI.",
-  "twitter_username": "rrgomide",
-  "public_repos": 48,
-  "public_gists": 0,
-  "followers": 204,
-  "following": 13,
-  "created_at": "2015-03-24T09:34:46Z",
-  "updated_at": "2021-03-30T02:00:01Z"
+  "cursos": [
+    { "id": 1, "titulo": "Entendendo o ES6", "url": "https://www.codeprestige.com.br/cursos/es6" },
+    { "id": 2, "titulo": "Produtividade Máxima com o VS Code", "url": "https://www.udemy.com/truques-vscode/" },
+    { "id": 3, "titulo": "Entendendo o ES7/ES8", "url": "https://www.codeprestige.com.br/cursos/es7-8" },
+    { "id": 4, "titulo": "React 16 Definitivo", "url": "https://www.udemy.com/react-16/" }
+  ],
+  "alunos": [
+    { "id": 1, "nome": "Marcela da Silva", "curso": 1 },
+    { "id": 2, "nome": "José Luiz Felipe", "curso": 2 },
+    { "id": 3, "nome": "Paulo Rogério", "curso": 3 },
+    { "id": 4, "nome": "Felipe da Cunha", "curso": 1 },
+    { "id": 5, "nome": "Luiza Cardoso Pereira", "curso": 1 }
+  ],
+  "empresa": {
+    "nome": "Code Prestige"
+  }
 }
